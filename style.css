@@ -3518,6 +3518,7 @@ body {
     padding-bottom: 25px;
     margin-bottom: 25px;
     border-bottom: 1px solid #dedede;
+    vertical-align: center;
 }
 
 .section-about .profile-title {
@@ -3583,13 +3584,13 @@ body {
 
 .profile-list .title {
     display: block;
-    width: 120px;
+    width: 100%;
     float: left;
     color: #333333;
     font-size: 12px;
     font-weight: 700;
     line-height: 20px;
-    text-transform: uppercase;
+    text-align: center;
 }
 
 .profile-list .cont {
@@ -3692,7 +3693,7 @@ body {
 }
 
 .progress-bar .bar-data {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.1;
     padding-right: 40px;
 }
@@ -3708,6 +3709,7 @@ body {
 .progress-bar .bar-title {
     display: block;
     margin-bottom: 5px;
+    text-align: center;
 }
 
 .progress-bar .bar-fill {
@@ -4697,6 +4699,13 @@ body {
     top: 25px;
 }
 
+.ref-slider-nav .git{
+    display: block;
+    width: 58px;
+    height: 58px;
+    margin-bottom: 8px;
+}
+
 .ref-slider-nav .slider-prev,
 .ref-slider-nav .slider-next {
     display: block;
@@ -4730,7 +4739,9 @@ body {
 }
 
 .ref-box {
-    padding: 55px 75px 40px 80px;
+    padding: 35px 35px 35px 35px;
+    width: 50%;
+    float: left;
 }
 
 .ref-box .person-speech {
@@ -4738,15 +4749,15 @@ body {
     font-weight: 400;
     line-height: 1.4;
     position: relative;
-    padding-bottom: 27px;
-    border-bottom: 1px solid #dddad9;
+    padding-top: 15px;
+
 }
 
 .ref-box .person-speech p:last-child {
     margin-bottom: 0;
 }
 
-.ref-box .person-speech:before {
+/*.ref-box .person-speech:before {
     content: "\e61c";
     top: 2px;
     left: -55px;
@@ -4754,7 +4765,7 @@ body {
     font-size: 23px;
     line-height: 1;
 }
-
+*/
 .ref-box .person-info {
     padding-top: 25px;
 }
@@ -4771,6 +4782,8 @@ body {
 
 .ref-box .person-name-title {
     padding-top: 10px;
+    border-bottom: 1px solid #dddad9;
+    padding-bottom: 10px;
 }
 
 .ref-box .person-name {
@@ -4784,10 +4797,10 @@ body {
 
 .ref-box .person-title {
     color: #d0d0d0;
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.1;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .ref-box .person-name a,
